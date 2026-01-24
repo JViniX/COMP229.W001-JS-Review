@@ -7,6 +7,9 @@
 //     return `${firstName} of ${land}`;
 // };
 
+// const lordify = firstName =>  `${firstName} of`;
+
+
 ////////////////////////////////////////////////
 // Arrow Function
 const lordify = (firstName, land) => `${firstName} of ${land}`;

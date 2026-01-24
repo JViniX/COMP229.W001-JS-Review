@@ -13,18 +13,18 @@ const author = {
   },
 
   printBooks1() {
-//     function printValues(book) {
-//       console.log(book + ' by ' + this.fullName);
-//     }
+    // function printValues(book) {
+    //   console.log(book + ' by ' + this.fullName);
+    // }
 
-    this.books.forEach(this.printValues);
+    // this.books.forEach(printValues);
 
-//     this.books.forEach(function(book){
-//       console.log(book + ' by ' + this.fullName);
-//     }) // Logs Book 0X by undefined
+    this.books.forEach(function(book){
+      console.log(book + ' by ' + this.fullName);
+    }) // Logs Book 0X by undefined
   }
 };
 
-// author.printValues();
+author.printValues();
 author.printBooks();
 author.printBooks1(); 

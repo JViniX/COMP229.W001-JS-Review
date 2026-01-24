@@ -1,13 +1,13 @@
-function scopeTest() {
-  if (true) {
-    var varVariable = 'I am var';
-    let letVariable = 'I am let';
-  }
+// function scopeTest() {
+//   if (true) {
+//     var varVariable = 'I am var';
+//     let letVariable = 'I am let';
+//   }
 
-  console.log(varVariable); // 'I am var' (accessible due to function scope)
-  console.log(letVariable); // ReferenceError: letVariable is not defined (outside its block scope)
-}
-scopeTest();
+//   console.log(varVariable); // 'I am var' (accessible due to function scope)
+//   console.log(letVariable); // ReferenceError: letVariable is not defined (outside its block scope)
+// }
+// scopeTest();
 
 //// Data types in JavaScript
 var person = {
